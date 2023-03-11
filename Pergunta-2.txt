@@ -5,21 +5,32 @@
 IMPORTANTE:
 
 Esse número pode ser informado através de qualquer entrada de sua preferência ou pode ser previamente definido no código;
-
-
-
-3) Descubra a lógica e complete o próximo elemento:
-
-
-
-a) 1, 3, 5, 7, ___
-
-b) 2, 4, 8, 16, 32, 64, ____
-
-c) 0, 1, 4, 9, 16, 25, 36, ____
-
-d) 4, 16, 36, 64, ____
-
-e) 1, 1, 2, 3, 5, 8, ____
-
-f) 2,10, 12, 16, 17, 18, 19, ____
+ 
+ Para resolver este problema criei uma função em javascript que tem como parametro o numero que queremos descobrir se pertence ou não a sequencia de fibonacci.
+ para isto devemos conferir: 
+ -se o numero é positivo (n >= 0)
+ -se ele não é os inicias 0 ou 1
+ -fazer um while até a variavel se igualar a n, quando pertencer a sequencia, ou ultrapassar n quando nao pertencer.
+ 
+ //funcao em js para ver se pertence fibonacci
+ 
+ function pertenceFibo(n) {
+    let atual = 1;
+    let ant = 1;
+    if (n >= 0) {
+        if (n === 0 || n === 1) {
+            return "pertence";
+        } else {
+            while (atual < n) {
+                let prox = ant + atual;
+                ant = atual;
+                atual = prox;
+            }
+            if (atual === n) {
+                return "pertence";
+            } else
+                return "nao pertence";
+        }
+    } else
+        return "nao pertence";
+}
