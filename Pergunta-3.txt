@@ -13,3 +13,39 @@ d) 4, 16, 36, 64, ____
 e) 1, 1, 2, 3, 5, 8, ____
 
 f) 2,10, 12, 16, 17, 18, 19, ____
+
+
+Resolução:
+
+a) 1, 3, 5, 7, 9
+
+O padrão se resume a somar +2 a cada passagem.
+
+Logo 1 + 2 = 3, 3 + 2 = 5, 5 + 2 = 7 e 7 + 2 = 9.
+
+b) 2, 4, 8, 16, 32, 64, 128
+
+O padrão se resume ao 2 elevado n+1 a cada passagem. (2^n)
+
+Logo 2^1 = 2, 2^2 = 4, 2^3 = 8, 2^4 = 16, 2^5 = 32, 2^6 = 64, 2^7 = 128 
+
+c) 0, 1, 4, 9, 16, 25, 36, 49
+
+O padrão se resume ao quadrado dos numeros. (n^2)
+
+Portanto 0*0 = 0, 1*1 = 1, 2*2 = 4, 3*3 = 9, 4*4 = 16, 5*5 = 25, 6*6 = 36 e 7*7 = 49
+
+d) 4, 16, 36, 64, 100
+
+O padrão se resume ao quadrado dos numeros pulando de dois em dois. ( (n)^2, (n+2)^2, (n+4)^2, (n+6)^2 )
+
+2 = 4   4 = 16   6 = 36  8 = 64  10 = 100
+
+e) 1, 1, 2, 3, 5, 8, 13
+
+O padrão é a sequencia de fibonacci explicada no exercicio anterior (2).
+
+1 + 1 = 2, 1 + 2 = 3, 2 + 3 = 5, 3 + 5 = 8, 5 + 8 = 13.
+
+f) 2,10, 12, 16, 17, 18, 19,  20 
+   1  5   6   8  8.5  9  9.5  10 (acredito que seja isso).
