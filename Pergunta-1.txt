@@ -13,4 +13,18 @@ SOMA = SOMA + K;
 imprimir(SOMA);
 
 Resolução:
+O pseudo código basicamente esta fazendo um looping com o while(enquanto) até que k seja maior ou igual a variavel indice fazendo um incremento de k a cada repetição, ao mesmo tempo que incrementa o valor da soma com o atual valor de k na repetição. No fim ele pede para printar o valor final de soma pós while.
 
+Aqui esta o código em JavaScript, para facilitar o teste no console próprio navegador:
+
+var indice = 13;
+var soma = 0;
+var k =0;
+
+while(k < indice){
+  k++;
+  soma += k;
+}
+console.log(soma);
+
+//Repare que esta fiel ao pseudo codigo mas poderia ser mais limpo, com um for por exemplo.
